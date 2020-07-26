@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -30,7 +29,7 @@ public class ImageController {
         return "redirect:/profile";
     }
 
-    @RequestMapping("/profile")
+    @GetMapping("/profile")
     public String openPage(Model model) throws Exception {
 
         User user = userRepo.findByUid(1);

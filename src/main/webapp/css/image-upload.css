@@ -11,7 +11,7 @@
     cursor: pointer;
     line-height: 50px;
     font-weight: 700;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
 .nav.nav-tabs > li > a:hover,
 .nav.tabs-vertical > li > a:hover {
@@ -22,7 +22,7 @@
     color: #777777;
 }
 .nav.nav-tabs > li:last-of-type a {
-    margin-right: 0px;
+    margin-right: 0;
 }
 .nav.nav-tabs {
     border-bottom: 0;
@@ -45,7 +45,6 @@
 .tabs-vertical > li.active > a:hover {
     color: #6e8cd7 !important;
 }
-
 .user-tabs .nav.nav-tabs {
     box-shadow: none !important;
 }

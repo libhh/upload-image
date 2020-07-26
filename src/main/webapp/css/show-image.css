@@ -1,25 +1,23 @@
 body{
     margin-top:20px;
 }
-
 .bg-overlay {
-    -moz-border-radius: 6px 6px 0px 0px;
-    -webkit-border-radius: 6px 6px 0px 0px;
-    border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
     height: 100%;
-    left: 0px;
+    left: 0;
     position: absolute;
-    top: 0px;
+    top: 0;
     width: 100%;
 }
-
 .bg-picture {
     -webkit-background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -22px;
-    padding: 100px 0px;
+    padding: 100px 0;
     position: relative;
 }
 .bg-picture > .bg-picture-overlay {
@@ -41,7 +39,6 @@ body{
     box-shadow: none !important;
     margin-top: 35px;
 }
-
 .tabs-top .indicator {
     top: 0;
 }
@@ -89,7 +86,7 @@ body{
     cursor: pointer;
     line-height: 50px;
     font-weight: 700;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
 .nav.nav-tabs > li > a:hover,
 .nav.tabs-vertical > li > a:hover {
@@ -100,7 +97,7 @@ body{
     color: #777777;
 }
 .nav.nav-tabs > li:last-of-type a {
-    margin-right: 0px;
+    margin-right: 0;
 }
 .nav.nav-tabs {
     border-bottom: 0;
@@ -123,14 +120,12 @@ body{
 .tabs-vertical > li.active > a:hover {
     color: #6e8cd7 !important;
 }
-
 .fileContainer {
     background-color: #007bff;
     position: relative;
     padding: 10px;
     border-radius: 5px;
 }
-
 .fileContainer [type=file] {
     cursor: inherit;
 
