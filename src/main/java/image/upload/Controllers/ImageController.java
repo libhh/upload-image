@@ -15,6 +15,9 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 public class ImageController {
 
+    //test@gmail.com
+    // Test123
+
     @Autowired
     private ImageService imageService;
 
