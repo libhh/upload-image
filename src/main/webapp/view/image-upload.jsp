@@ -33,6 +33,7 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-md-5">
+                                <p>AWS_KEY: 123EXAMPLEKEY456</p>
                                 <form  action="/upload-image" method="post" enctype="multipart/form-data">
                                     <input style="cursor:pointer;" id="imagefile" name="image" type="file" class="file">
                                     <input type="text" hidden value="1" name="id">
